@@ -1,0 +1,21 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    physical_layout_plump_apricot: physical_layout_plump_apricot {
+        compatible = "zmk,physical-layout";
+        display-name = "Plump Apricot";
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100  100  125       0   100   125>
+            , <&key_physical_attrs 100 100  200  125       0   200   125>
+            , <&key_physical_attrs 100 100  300  125       0   300   125>
+            , <&key_physical_attrs 100 100  400  125       0   400   125>
+            , <&key_physical_attrs 100 100  500  125       0   500   125>
+            , <&key_physical_attrs 100 100  600  125       0   600   125>
+            , <&key_physical_attrs 100 100  100  225       0   100   225>
+            , <&key_physical_attrs 100 100  200  225       0   200   225>
+            , <&key_physical_attrs 100 100  300  225       0   300   225>
+            , <&key_physical_attrs 100 100  400  225       0   400   225>
+            , <&key_physical_attrs 100 100  500  225       0   500   225>
+            ;
+    };
+};

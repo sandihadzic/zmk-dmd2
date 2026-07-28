@@ -1,0 +1,4 @@
+name: zmk-keyboard-plump-apricot
+build:
+  settings:
+    board_root: .
